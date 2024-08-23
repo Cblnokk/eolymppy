@@ -1,0 +1,13 @@
+s,m,h,k=map(int,input().split())
+sum=s+m+h
+k1=k
+sum1=sum
+res=0
+while(sum1!=k1):
+    if(sum1>k1):
+        k1+=k
+    elif(k1>sum1):
+        sum1+=sum
+    res+=1
+    print(k1,sum1,res)
+print(res)
