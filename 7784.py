@@ -1,0 +1,13 @@
+a=list(map(int,input().split()))
+sum=sum(a)
+d=sum//2
+ma=max(a)
+i=a.index(ma)
+a.remove(ma)
+if(ma==a[1]+a[0]):
+    print(0)
+else:
+    a1=d-a[0]
+    a2=d-a[1]
+    print(ma)
+    print(a1,a2)
