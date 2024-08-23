@@ -1,0 +1,20 @@
+h1,m1,s1=map(int,input().split())
+h2,m2,s2=map(int,input().split())
+h=0
+m=0
+s=0
+s=s2-s1
+while(s<0):
+    if(s<0):
+        m-=1
+        s+=60
+m+=m2-m1
+while(m<0):
+    if(m<0):
+        h-=1
+        m+=60
+h+=h2-h1
+while(h<=0):
+    if(h<=0):
+        h+=24
+print(h,m,s)
