@@ -1,0 +1,7 @@
+s = input()
+n=int(s,base=16)
+print(n%5)
+s1 = input()
+n1=int(s1)
+n2=hex(n1)
+print(n2)

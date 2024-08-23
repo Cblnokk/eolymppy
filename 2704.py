@@ -1,0 +1,12 @@
+a=['C','XC','L','XL','X','IX','V','IV','I']
+a1=[100,90,50,40,10,9,5,4,1]
+x=int(input())
+s=''
+i=0
+while(x>0):
+    if(x>=a1[i]):
+        x=x-a1[i]
+        s=s+a[i]
+    else:
+        i+=1
+print(s)
